@@ -1,0 +1,13 @@
+@layout('main')
+@section('content')
+  <h1>{{ title }}</h1>
+  <div class="alert alert-success" role="alert">
+      A simple success alert—check it out!
+    </div>
+  <div class="list-group">
+    @each(item in tasks)
+      <a href="#" class="list-group-item list-group-item-action">{{ item.title }}</a>
+    @endeach
+
+  </div>
+@endsection
