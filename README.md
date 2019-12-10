@@ -21,6 +21,9 @@ adonis new yardstick
 
 or manually clone the repo and then run `npm install`.
 
+## DB Dependence
+
+npm install pg --save
 
 ### Migrations
 
