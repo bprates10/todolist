@@ -13,6 +13,12 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 
 ## Setup
 
+Install the adonis cli dependence
+
+```bash
+npm i -g @adonisjs/cli
+```
+
 Use the adonis command to install the blueprint
 
 ```bash
